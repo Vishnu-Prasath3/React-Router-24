@@ -1,0 +1,22 @@
+.navbar{
+ height: 60px;
+ width: 100%;
+ background-color: antiquewhite; 
+ display: flex;
+ justify-content: end;
+}
+
+
+.navbar>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+        
+}
+.navbar>ul>li{
+    padding: 20px 15px ;
+
+}
+.main-div{
+    display:flex;
+}
