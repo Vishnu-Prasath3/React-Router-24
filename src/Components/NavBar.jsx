@@ -9,16 +9,15 @@ import Fsd from '../pages/Fsd'
 function NavBar() {
   return (
     <>
-    <div className='navbar'>
+       <div className='navbar'>
     <ul>
-  <li><Link> home</Link></li>
-  <li><Link>career</Link></li>
-        <li><Link>computer science</Link></li>
-        <li>Data science</li>
-        <li>full stack development</li>
-        <li>data science</li>
+           <li><Link to="/"> home</Link></li>
+           <li><Link to="career">career</Link></li>
+           <li><Link to="Cs">computer science</Link></li>
+           <li><Link to="Ds">Data science</Link></li>
+           <li><Link to="fsd">full stack development</Link></li>
     </ul>
-    </div>
+       </div>
 
    
 <Routes>

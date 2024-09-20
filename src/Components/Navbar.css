@@ -4,19 +4,38 @@
  background-color: antiquewhite; 
  display: flex;
  justify-content: end;
+
 }
 
 
 .navbar>ul{
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-        
+    list-style-type: none;    
+    
+
 }
 .navbar>ul>li{
     padding: 20px 15px ;
-
 }
+.navbar>ul>li:hover{
+    border: 1px solid rgb(236, 236, 147);
+    background-color: cadetblue;
+    height:30px;
+    text-decoration: dashed;
+    color:white;
+    font-size: x-large;
+    transition-duration: 500ms,30s,230ms;
+}
+
+
+
 .main-div{
     display:flex;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
