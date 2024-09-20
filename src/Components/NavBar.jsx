@@ -6,7 +6,7 @@ import Career from '../pages/Career'
 import Cs from '../pages/Cs'
 import Ds from '../pages/Ds'
 import Fsd from '../pages/Fsd'
-function NavBar() {
+export default function NavBar() {
   return (
     <>
        <div className='navbar'>
@@ -31,5 +31,3 @@ function NavBar() {
 </>     
   )
 }
-
-export default NavBar
