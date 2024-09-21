@@ -28,7 +28,7 @@ export default function All() {
   </div>
   </div>
 
-
+n
 <div className="card" >
    <img src={url.img14} className="card-img-top" alt="..."></img>
    <div className="card-body">

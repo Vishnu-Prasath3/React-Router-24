@@ -11,9 +11,36 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;    
-    
+    position:relative;
+    right: 10%;
 
 }
+@media screen and (max-width: 800px)
+{
+
+
+    .main-div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0px 0px 0px 0px;
+        text-align: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+        background-color: rgb(212, 196, 175);
+        border:none;
+        margin: 10px;
+        border-radius: 2%;
+    }   
+    .navbar>ul>li{
+        display: none;
+    }
+}
+
 .navbar>ul>li{
     padding: 20px 15px ;
 }
@@ -55,7 +82,6 @@
     background-color: grey;
     color: white;
     transition-duration: 800ms;
-
 }
 
 .card>img{
